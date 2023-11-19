@@ -29,7 +29,7 @@ function onLoad() {
 function makeSelectMarkup(items) {
     return items
     .map(({ id, name }) => {
-        // console.log(id , name)
+    
             return `<option value="${id}">🐈‍⬛ - ${name}</option>`;
         })
         .join('');
