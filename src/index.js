@@ -20,7 +20,7 @@ function onLoad() {
             const markup = makeSelectMarkup(resp);
             addMarkup(selectEl, markup);
             new SlimSelect({
-                select: '#breed-select',
+                select: selectEl,
             });
         })
         .catch(error => console.log(error.message));
